@@ -1,0 +1,12 @@
+student-result-management/
+├── app.py
+├── models.py
+├── templates/
+│   ├── index.html
+│   └── result.html
+├── static/
+│   └── style.css
+├── results/
+│   └── (PDF files generated here)
+├── requirements.txt
+├── README.md
