@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body { font-family: Arial; }
+        .result { border: 1px solid black; padding: 20px; width: 400px; }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h2>Result Sheet</h2>
+        <p><strong>Name:</strong> {{ student.name }}</p>
+        <p><strong>Roll No:</strong> {{ student.roll }}</p>
+        <p><strong>Math:</strong> {{ student.math }}</p>
+        <p><strong>Science:</strong> {{ student.science }}</p>
+        <p><strong>English:</strong> {{ student.english }}</p>
+        <p><strong>Total:</strong> {{ student.total }}</p>
+        <p><strong>Percentage:</strong> {{ "%.2f"|format(student.percentage) }}%</p>
+        <a href="/download/{{ student.id }}">Download as PDF</a>
+    </div>
+</body>
+</html>
