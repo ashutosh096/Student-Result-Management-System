@@ -1,0 +1,20 @@
+# 🧾 Student Result Management System
+
+A full-stack Flask web app to manage student results:
+- Accepts student info and marks
+- Saves data in SQLite
+- Displays and downloads result as PDF
+
+## 💻 Technologies
+- Python Flask
+- HTML/CSS
+- SQLite (via SQLAlchemy)
+- xhtml2pdf (for PDF generation)
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/student-result-management.git
+cd student-result-management
+pip install -r requirements.txt
+python app.py
